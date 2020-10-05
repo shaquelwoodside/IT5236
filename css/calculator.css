@@ -1,1 +1,62 @@
+header{
+	font-size:60px;
+}
+body{
+	background: linear-gradient(to bottom, #87ebff 0%, #ff99cc 100%);
+}
 
+table{
+	background-color: #ffa6db;
+	border: 2px solid black;
+	height: 320px;
+	width: 300px;
+}
+.operator{
+	background-color:red;
+	width: 70px;
+	height:60px;
+	background-color:#ff7d88;
+}
+
+.number{
+	width: 70px;
+	height:60px;
+	background-color: #ff73b7;
+	color: white;
+}
+
+#negative{
+	width: 70px;
+	height:60px;
+}
+#clear{
+	width: 70px;
+	height:60px;
+}
+
+#screen{
+	width:308px;
+	height:50px;
+	border: 2px solid black;
+	border-bottom: none;
+	background-color:#ffe3f4;
+}
+
+#equalYellow{
+	background-color: #f87efc;
+	width: 150px;
+}
+#minus{
+	width: 70px;
+}
+
+input{
+	font-size: 30px;
+}
+
+#wholeCalc{
+	margin: auto;
+	width: 25%;
+	padding: 10px;
+	
+}
