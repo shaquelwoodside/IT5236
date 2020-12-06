@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="author" content="Shaquel Woodside">
+		<title>Circle</title>
+		
+
+	</head>
+	<body>
+		<header>Circumference of a Circle</header>
+		
+		<p>Please enter a radius</p>
+		<!--- When they click the enter button, it will use the circum function and return the result. I found the math formula for circumference on Google-->
+		
+		<script type="text/javascript">
+				
+			function circum(radius){
+				
+				var radius = document.getElementById('radius').value; //grabs the radius value
+				
+				\
+				var result = 2 * Math.PI * radius;
+				
+				document.getElementById('screen').value = result; //returns result to the screen ID
+			}
+		
+		</script>
+		
+		
+		<input id ="radius" type= "text" name="radius">
+		<button onclick="circum(radius)">=</button>
+			
+		<p>Result</p> <input id ="screen" type= "text" name="result">
+
+			
+	</body>
+</html>
