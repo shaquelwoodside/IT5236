@@ -1,0 +1,139 @@
+{
+	"info": {
+		"_postman_id": "fa5ee6d7-918a-4833-809d-3181a0aeb079",
+		"name": "Circumference",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Radius Positive test",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "8a513986-6af5-4a2f-872c-6710ad9f1275",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://swoodside.xyz/circleapi/v1.0/circle.php?radius==",
+					"protocol": "https",
+					"host": [
+						"swoodside",
+						"xyz"
+					],
+					"path": [
+						"circleapi",
+						"v1.0",
+						"circle.php"
+					],
+					"query": [
+						{
+							"key": "radius",
+							"value": "="
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Radius Negative Test",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://swoodside.xyz/circleapi/v1.0/circle.php?radius=pop",
+					"protocol": "https",
+					"host": [
+						"swoodside",
+						"xyz"
+					],
+					"path": [
+						"circleapi",
+						"v1.0",
+						"circle.php"
+					],
+					"query": [
+						{
+							"key": "radius",
+							"value": "pop"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Radius Negative test Operations",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://swoodside.xyz/circleapi/v1.0/circle.php?radius=+",
+					"protocol": "https",
+					"host": [
+						"swoodside",
+						"xyz"
+					],
+					"path": [
+						"circleapi",
+						"v1.0",
+						"circle.php"
+					],
+					"query": [
+						{
+							"key": "radius",
+							"value": "+"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Division",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://swoodside.xyz/circleapi/v1.0/circle.php?radius=4/3",
+					"protocol": "https",
+					"host": [
+						"swoodside",
+						"xyz"
+					],
+					"path": [
+						"circleapi",
+						"v1.0",
+						"circle.php"
+					],
+					"query": [
+						{
+							"key": "radius",
+							"value": "4/3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "html",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
