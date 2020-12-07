@@ -9,7 +9,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET'){
 	$radius = $_GET['radius'];
 	
 	
-	if (is_numeric($radius)){
+	if (is_numeric($radius)){ // https://www.php.net/manual/en/function.is-numeric.php
 	
 		echo $radius;
 		
